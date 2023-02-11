@@ -7,6 +7,43 @@
   --white-v3: #F5F7FB;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Inter', sans-serif;
+  background-color: var(--white-v1);
 }
+
+/* Start of Header */ 
+
+.header {
+  width: 100%;
+  height: 55px;
+  background-color: var(--light-pink);
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header--icon {
+  height: 24px;
+}
+
+.header--title {
+  font-weight: 500;
+  font-size: 14.4608px;
+  letter-spacing: -0.075em;
+  color: var(--white-v1)
+}
+
+/* End of Header */
+
+/* Start of Main */
+
+
+/* End of Main */
