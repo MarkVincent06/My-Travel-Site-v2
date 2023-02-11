@@ -11,6 +11,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
@@ -44,6 +45,66 @@ body {
 /* End of Header */
 
 /* Start of Main */
+.card-list {
+  display: flex;
+  flex-direction: column;
+}
 
+.card {
+  width: 470px;
+  height: 168px;
+  margin: 36px auto;
+  display: flex;
+  color: var(--dark-blue)
+}
+
+.card--left {
+  width: 100%;
+}
+
+.card--left--coverImg {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card--right {
+  padding: 20px;
+}
+
+.card--right--icon {
+  width: 7px;
+  margin-right: 4px;
+}
+
+.card--right--country {
+  font-weight: 400;
+  font-size: 10.24px;
+  letter-spacing: 0.17em;
+  margin-right: 12px;
+}
+
+.card--right--googleMaps {
+  font-weight: 400;
+  font-size: 10.24px;
+  text-decoration-line: underline;
+  color: var(--light-gray);
+}
+
+.card--right--title {
+  margin: 7px 0;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.card--right--date {
+  margin-bottom: 9px;
+  font-weight: 700;
+  font-size: 10.24px;
+}
+
+.card--right-desc {
+  font-weight: 400;
+  font-size: 12px;
+}
 
 /* End of Main */
